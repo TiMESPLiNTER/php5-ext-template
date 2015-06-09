@@ -1,0 +1,7 @@
+ARG_ENABLE("ext_name", "ext_name", "no");
+
+if(PHP_EXT_NAME == "yes") {
+	EXTENSION("ext_name", "ext_name.c");
+	AC_DEFINE('HAVE_EXT_NAME', 1, 'Have ext_name');
+	ADD_EXTENSION_DEP('exif', 'mbstring');
+}
