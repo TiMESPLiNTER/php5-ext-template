@@ -18,7 +18,9 @@ Pay attention to the `_` in `EXT_NAME` **don't** replace any occurrences of `EXT
 
 ## Compile the extension
 
-* `phpize`
+It's the easiest if you store the extension project in `/path/to/php/ext/ext-name`. Then you can do in your extension dir:
+
+* `../../bin/phpize`
 * `./configure --enable-ext_name`
 * `make` (or `make clean all`)
 * `cp ./module/ext_name.so /path/to/php/lib/php/extension/no-debug...`
