@@ -5,8 +5,8 @@ This is a template repository which gives you a skeleton for building a simple P
 It's based on those 3 great blog entries:
 
 * [Extension Writing Part I](http://devzone.zend.com/303/extension-writing-part-i-introduction-to-php-and-zend/)
-* [Extension Writing Part IIa](http://devzone.zend.com/317/extension-writing-part-ii-parameters-arrays-and-zvals/)
-* [Extension Writing Part IIb](http://devzone.zend.com/318/extension-writing-part-ii-parameters-arrays-and-zvals-continued/)
+* [Extension Writing Part II a](http://devzone.zend.com/317/extension-writing-part-ii-parameters-arrays-and-zvals/)
+* [Extension Writing Part II b](http://devzone.zend.com/318/extension-writing-part-ii-parameters-arrays-and-zvals-continued/)
 * [Extension Writing Part III](http://devzone.zend.com/446/extension-writing-part-iii-resources/)
 
 ## Things to replace
